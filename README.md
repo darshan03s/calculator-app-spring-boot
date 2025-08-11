@@ -13,7 +13,7 @@ pnpm dev
 ```
 
 ```bash
-cd backend
+cd backend/calculator
 mvn spring-boot:run
 ```
 
