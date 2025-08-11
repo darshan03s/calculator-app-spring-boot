@@ -38,7 +38,7 @@ const Calculator = memo(function Calculator() {
         operation, // use words to avoid '+' becoming space
       });
 
-      const res = await fetch("http://localhost:8080/calculate", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/calculate`, {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: params.toString(),
