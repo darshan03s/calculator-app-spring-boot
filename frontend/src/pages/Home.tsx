@@ -1,5 +1,11 @@
+import Calculator from "@/components/Calculator";
+
 const Home = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Calculator />
+    </div>
+  );
 };
 
 export default Home;
